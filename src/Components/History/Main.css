@@ -1,0 +1,242 @@
+html {
+  overflow-x: hidden;
+}
+
+.wrapper2 {
+  background: #6a9fb4;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  justify-items: center;
+  justify-self: center;
+}
+
+.blue2 {
+  height: 100%;
+  width: 95%;
+  background-color: #6a9fb4;
+  display: flex;
+  flex-direction: column;
+}
+
+.content11 {
+  align-items: start;
+  margin-left: 6vw;
+  margin-top: 6vh;
+  color: #044863;
+  font-size: 30px;
+  font-family: "Jost", sans-serif;
+  flex-direction: column;
+  line-height: 75px;
+}
+
+.content22 {
+  text-align: justify;
+  text-justify: inter-word;
+  align-content: start;
+  margin-left: 6vw;
+  width: 75%;
+  color: #044863;
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+  font-weight: lighter;
+  flex-direction: column;
+}
+
+.filter {
+  margin-top: 4vh;
+  width: 100%;
+  height: 100%;
+}
+
+.white {
+  background-color: whitesmoke;
+  height: 100%;
+  width: 100%;
+  grid-row: 3 / span 8;
+  display: flex;
+  justify-content: center;
+}
+
+.tableClosed {
+  justify-items: center;
+  align-items: center;
+  width: 83%;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-top: 5vh;
+  justify-self: center;
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background: rgb(228, 230, 240);
+}
+
+.buttonstat2 {
+  margin-top: 4vh;
+  margin-left: 2vw;
+  width: 25%;
+  height: 56%;
+  border-radius: 8px;
+  border: none;
+  background: #044863;
+  color: aliceblue;
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.buttonstat2:hover {
+  background: rgb(83, 142, 194);
+}
+
+.buttonstat3 {
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+  width: 15vw;
+  height: 5vh;
+  border-radius: 8px;
+  border: none;
+  background: #044863;
+  color: aliceblue;
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.buttonstat3:hover {
+  background: rgb(83, 142, 194);
+}
+.buttonAñadir {
+  margin-top: 4vh;
+  margin-left: 6vw;
+  width: 70%;
+  height: 56%;
+  border-radius: 8px;
+  border: none;
+  background: rgb(98, 195, 202);
+  color: aliceblue;
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  margin-right: -11.5vw;
+  justify-self: end;
+  grid-column: 3 / span 4;
+}
+
+.form {
+  margin-left: 8.5vw;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  font-family: "Jost", sans-serif;
+  width: 47vw;
+  justify-content: space-between;
+}
+
+.MuiOutlinedInput-input{
+  height: 5px !important;
+  background-color: white !important;
+}
+
+
+
+.sectionTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(83, 142, 194);
+    font-family: "Jost";
+    margin-left: 8.5vw;
+    margin-bottom: 3vh;
+    border-top: 1px solid lightgray;
+    width:47vw;
+    padding-top: 30px;
+}
+
+div.react-datepicker__input-container input {
+  border-color: rgb(201, 199, 199);
+  border-style: solid;
+  border-radius: 5%;
+  border-width: 1.5px;
+  height: 43px !important;
+}
+
+
+.smallInput{
+  height: 3vh !important;
+  width: 3.5vw;
+  margin-left: 0.5vw;
+  border-color: lightgray;
+  border-style: solid;
+  border-radius: 10%;
+  border-width: 1.5px;
+  }
+.subsectionTitle{
+  font-family: "Jost";
+  color: black;
+  font-size: 14.5px;
+  margin: 5,
+  
+}
+
+.nombres1 {
+  margin-top: 5vh; 
+  margin-left: 8.5vw;
+  margin-bottom: 5vh; 
+  font-family: "Jost";
+  color: black;
+  font-size: 14.5px;
+  margin: 5
+}
+
+.topName {
+  font-family: "Jost";
+  color: "black";
+  font-size: "14.5px";
+  margin: 5;
+  margin-top: 2vh;
+  grid-row: 3;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.card{
+  background-color: white;
+  margin-left: 12vw;
+  margin-top: 5vh;
+  width: 20vw;
+  height: 35vh;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px lightgray;
+        box-shadow: 0 0 10px lightgray;
+  padding:15px
+}
+
+.nombres2 {
+  margin-top: 2vh;
+  grid-column: 2;
+}
+
+.nombres3 {
+  margin-top: 2vh;
+  grid-column: 3 / span 4;
+  grid-row: 2;
+}
+
+.patient {
+  border-bottom: 2px;
+  border-color: red;
+  border-width: 10px;
+}

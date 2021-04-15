@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  height: auto;
+}
+.El-buscador{
+  background-color: whitesmoke;
+  margin-left: 8vw;
+  margin-top: 5vh;
+  width: 50vw;
+  height: 12vh;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px lightgray;
+        box-shadow: 0 0 10px lightgray;
+  padding:5px
+}
+.Historia-clínica {
+  background: rgb(218, 221, 242);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+h1 {
+  margin: 20px;
+}
+p {
+  font-size: 20px;
+  margin: 10px;
+  margin-left: 50px;
+  margin-right: 60%;
+  padding: 10px;
+  padding-left: 30px;
+
+  border: solid rgba(63, 61, 61, 0.645);
+  border-radius: 10px;
+}
+.form {
+  margin-left: 8.5vw;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  font-family: "Jost", sans-serif;
+  width: 47vw;
+  justify-content: space-between;
+}
+
+.Seleccion-Paciente {
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  background: none;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.Boton {
+  padding: 10px;
+  background: none;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+

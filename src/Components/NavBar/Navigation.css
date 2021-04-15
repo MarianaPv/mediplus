@@ -1,0 +1,94 @@
+.bodyy {
+  margin: 0;
+  padding: 0;
+  font-family: "Jost", sans-serif;
+  font-size: 19px;
+  display: flex;
+  flex-direction: row;
+  height: 13vh;
+  width: 100%;
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  height: 13vh;
+  background-position: center center;
+}
+
+header {
+  padding: 0 5vw;
+  margin: 0px;
+  width: 100vw;
+  height: 13vh;
+  box-sizing: border-box;
+  background: #6a9fb4;
+  color: #044863;
+  transition: 0.5s;
+}
+
+ul {
+  position: relative;
+  margin-left: 10vw;
+  margin-top: 0vh;
+  padding: 0;
+  display: flex;
+  float: left;
+  transition: 0.5s;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 1.7vw;
+}
+
+ul li a {
+  position: relative;
+  display: block;
+  padding: 1.5vh 0.5vw;
+  margin: 3.2vh 0;
+  text-decoration: none;
+  color: #044863;
+  transition: 0.2s;
+}
+ul li a:hover {
+  color: #fff;
+  background: #044863;
+  border-radius: 40px;
+}
+
+.logout {
+  margin-top: 4.3vh;
+  margin-left: 2vw;
+  width: 8vw;
+  height: 3vh;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  background: transparent;
+  border-color: rgb(182, 244, 248);
+  border-radius: 50px;
+  border-style: solid;
+
+  color: rgb(182, 244, 248);
+  cursor: pointer;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  padding-bottom: 3.5vh;
+}
+
+.logout:hover {
+  border-color: rgb(98, 195, 202);
+  border-radius: 50px;
+  border-style: solid;
+  color: rgb(98, 195, 202);
+}
+
+@media (max-width: 769px) {
+  .extra {
+    display: none;
+  }
+  .navBox {
+    display: flex;
+  }
+}

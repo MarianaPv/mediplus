@@ -1,0 +1,231 @@
+html {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  background: #6a9fb4;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  justify-self: center;
+}
+
+.blue {
+  justify-self: center;
+  justify-content: center;
+  align-content: center;
+  align-items: start;
+  height: 35%;
+  width: 100%;
+  background-color: #6a9fb4;
+  display: flex;
+  flex-direction: column;
+  grid-row: 1 / span 3;
+}
+
+.content1 {
+  margin-left: 6vw;
+  margin-bottom: 1vh;
+  width: 24vw;
+  color: #044863;
+  font-size: 70px;
+  font-family: "Jost", sans-serif;
+  flex-direction: column;
+  line-height: 75px;
+}
+
+.content2 {
+  text-align: justify;
+  text-justify: inter-word;
+  align-content: start;
+  margin-left: 6vw;
+  margin-bottom: 30px;
+  width: 75%;
+  color: #044863;
+  font-size: 18px;
+  font-family: "Jost", sans-serif;
+  font-weight: lighter;
+  flex-direction: column;
+}
+
+.chart {
+  width: 40vw;
+  margin-top: 10vh;
+  margin-left: 6vw;
+  margin-bottom: 6vh;
+  margin-right: 1.5vw;
+  height: 30vh;
+}
+
+.chartContainer {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+
+.p {
+  cursor: pointer;
+  border-width: 0px;
+  border-radius: 0;
+  margin:0
+}
+
+.p:hover {
+  background-color: rgba(83, 124, 212, 0.199);
+}
+
+.filter {
+  margin-top: 4vh;
+  width: 100%;
+  height: 100%;
+}
+.wave {
+  margin-top: -15vh;
+  margin-bottom: 0;
+  padding: 0;
+  height: 25%;
+  width: 105%;
+  margin-left: -2vw;
+  display: flex;
+  position: absolute;
+  background-image: url("whiteb.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.arrow {
+  display: grid;
+  height: 20%;
+  margin-top: -1%;
+  margin-left: 83.5vw;
+}
+
+.buttonstat {
+  margin-top: 4vh;
+  margin-left: 2vw;
+  width: 15%;
+  height: 56%;
+  border-radius: 8px;
+  border: none;
+  background: #044863;
+  color: aliceblue;
+  font-family: "Jost", sans-serif;
+  font-size: 17px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.buttonstat:hover {
+  background: rgb(83, 142, 194);
+}
+
+.css-26l3qy-menu {
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  top: -100px;
+}
+
+.filter.css-2b097c-container {
+  height: 4.5vh;
+}
+
+.card2{
+  background-color: white;
+  margin-left: 2vw;
+  margin-top: 5vh;
+  margin-right: 5vw;
+  width: 23vw;
+  height: 50vh;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px lightgray;
+        box-shadow: 0 0 10px lightgray;
+  padding:15px;
+  margin-bottom:5vh
+}
+
+
+.event{
+  border-top: 1px solid lightgray;
+  font-size: 13px;
+  font-family: "Jost";
+  padding-top: 0.5vh;
+  padding-bottom: 1vh;
+}
+
+.titleEvent{
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  font-size: 14px;
+  font-family: "Jost";
+  font-weight: bold;
+}
+
+.showMore{
+  text-align: end;
+  font-family: "Jost";
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 3vh;
+  margin-right: 1vw;
+  color: #6a9fb4;
+}
+
+.DePresion{
+  width: 95%;
+  margin: auto;
+  margin-left: 35px;
+  padding-right: 5px;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px lightgray;
+        box-shadow: 0 0 10px lightgray;
+  padding:15px;
+  margin-bottom:5vh;
+  margin-top:5vh
+}
+.Segundos{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  margin: auto;
+  margin-left: 3vw;
+  margin-top:6vh;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px lightgray;
+        box-shadow: 0 0 10px lightgray;
+}
+
+.Lista{
+  margin-left: 30px;
+  margin-bottom: 20px;
+  height:"50px";
+  justify-self: "center";
+  justify-content:"center";
+  align-content: "center"
+}
+.Lista>button{
+  background: #f3f5f5;
+  font-size: 20px;
+  width: 200px;
+  padding: 1px;
+  border-radius: 5px;
+  font-family: "Jost", sans-serif;
+}
+.Intento{
+    position: relative;
+}
+
+  
+.Estadisticos{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* border: solid 2px rgb(160, 209, 160); */
+
+
+}
